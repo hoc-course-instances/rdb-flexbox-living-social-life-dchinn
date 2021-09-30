@@ -1,0 +1,55 @@
+.container {
+    width:90%;
+    margin: 0 auto;
+    max-width:900px;
+    border:solid 1px red;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding:0;
+    
+}
+nav ul li{
+    margin:0 16px;
+}
+nav a{
+    text-decoration:none;
+}
+.current-page{
+    text-decoration: underline;
+}
+header{
+    text-align: center;
+    background-color: pink;
+}
+body{
+    margin:0;
+} 
+
+
+h1{
+    margin:0; 
+}
+
+@media(min-width:720px){
+    .container-flex{
+        display: flex;
+        flex-direction: row;
+
+        justify-content: space-between;
+ 
+    }
+    header{
+        text-align:left;
+    }
+    nav ul li{
+         margin-right:0;
+         
+    } 
+    nav ul{
+        flex-direction: row;
+    }
+} 
